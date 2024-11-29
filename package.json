@@ -28,6 +28,11 @@
 				"type": "hook",
 				"name": "custom-hooks",
 				"source": "src/custom-hooks/index.ts"
+			},
+			{
+				"type": "endpoint",
+				"name": "new-endpoint",
+				"source": "src/new-endpoint/index.ts"
 			}
 		],
 		"host": "^10.10.0"
