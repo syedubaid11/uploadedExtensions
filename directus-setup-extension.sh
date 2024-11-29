@@ -2,7 +2,6 @@
 
 ## NOTE: CHANGE THE PATH '../directus-extension-test' TO THE PATH OF YOUR EXTENSION PROJECT DIRECTORY
 
-
 # Step 1: Clone or prepare the extension project directory
 echo "Preparing the extension directory..."
 
