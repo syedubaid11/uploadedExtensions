@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  directus:
+    image: directus/directus:latest
+    container_name: directus_app
+    ports:
+      - "8055:8055"
+    environment:
+      DIRECTUS_ENV: production
+      ADMIN_EMAIL: ${ADMIN_EMAIL}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+      DIRECTUS_SECRET: ${DIRECTUS_SECRET}
+    volumes:
+      - ./extensions:/directus/extensions
+    restart: always
