@@ -1,5 +1,8 @@
 #!/bin/bash
 
+## NOTE: CHANGE THE PATH '../directus-extension-test' TO THE PATH OF YOUR EXTENSION PROJECT DIRECTORY
+
+
 # Step 1: Clone or prepare the extension project directory
 echo "Preparing the extension directory..."
 
@@ -16,6 +19,7 @@ if [ -d "extensions/directus-extension-test" ]; then
 fi
 
 # Step 3: Move your local project into the 'extensions' folder
+#NOTE HERE: Replace '../directus-extension-test' with the path to your extension project directory
 cp -r ../directus-extension-test ./extensions/
 echo "Copied 'directus-extension-test' into 'extensions' directory."
 
