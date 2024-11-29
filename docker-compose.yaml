@@ -3,7 +3,7 @@ version: '3.8'
 services:
   directus:
     image: directus/directus:latest
-    container_name: directus_app
+    container_name: directus_app # Choose a name for your container
     ports:
       - "8055:8055"
     environment:
