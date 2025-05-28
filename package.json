@@ -28,6 +28,11 @@
 				"type": "endpoint",
 				"name": "catalog",
 				"source": "src/catalog/index.ts"
+			},
+			{
+				"type": "endpoint",
+				"name": "user",
+				"source": "src/user/index.ts"
 			}
 		],
 		"host": "^10.10.0"
