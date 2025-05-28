@@ -21,18 +21,13 @@
 		"entries": [
 			{
 				"type": "endpoint",
-				"name": "custom-endpoint",
-				"source": "src/custom-endpoint/index.ts"
-			},
-			{
-				"type": "hook",
-				"name": "custom-hooks",
-				"source": "src/custom-hooks/index.ts"
+				"name": "project",
+				"source": "src/project/index.ts"
 			},
 			{
 				"type": "endpoint",
-				"name": "new-endpoint",
-				"source": "src/new-endpoint/index.ts"
+				"name": "catalog",
+				"source": "src/catalog/index.ts"
 			}
 		],
 		"host": "^10.10.0"
@@ -45,7 +40,7 @@
 	},
 	"devDependencies": {
 		"@directus/extensions-sdk": "12.1.3",
-		"@types/node": "^22.10.1",
-		"typescript": "^5.7.2"
+		"@types/node": "^22.15.23",
+		"typescript": "^5.8.3"
 	}
 }
